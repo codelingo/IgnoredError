@@ -11,6 +11,8 @@ func main() {
 	if err != nil {
 		panic(err.Error())
 	}
+
+	PrintDivision(2, 0)
 }
 
 func PrintDivision(a, b int) (error) {
